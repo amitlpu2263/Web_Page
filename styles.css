@@ -1,0 +1,43 @@
+.hero-section {
+    background-color: #f9f1f7;
+    padding: 100px 0;
+    position: relative;
+  }
+  .hero-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  .hero-text {
+    color: #3b3b3b;
+  }
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+  .card-custom:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+  }
+  .arrow-hover {
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+  .arrow-hover:hover {
+    transform: translateX(5px);
+  }
+  .carousel-item img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  footer {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+  }
+  footer a {
+    text-decoration: none;
+    color: #3b3b3b;
+  }
+  
